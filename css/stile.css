@@ -1,0 +1,286 @@
+@font-face {
+    font-family:Sinera;
+    src: url('../font/Sinera.ttf') format('truetype');
+}
+@font-face {
+    font-family:Sicilian;
+    src: url('../font/sicilian font.ttf') format('truetype');
+}
+
+:root {
+    --yellow1: #FEB941;
+    --yellow2: #FDE49E;
+    --brown: #DD761C;
+    --blue: #6DC5D1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#sticky {
+	position: -webkit-sticky;
+    position: sticky;
+	top: 0;
+}
+
+#iconuser {
+    width: 29px; 
+    height: 29px;
+    margin-bottom: -10px; 
+    margin-top: -10px;
+    opacity: 0.7;
+}
+
+#iconcarrello {
+    width:30px; 
+    height:30px;
+    margin-bottom: -10px; 
+    margin-top: -10px;
+    opacity: 0.7;
+}
+
+#iconclick {
+    margin-bottom: -10px; 
+    margin-top: -10px;
+    opacity: 0.7;
+    background: none;
+    border: none;
+}
+
+#iconsearch {  
+    opacity: 0.6;
+    margin-bottom: -3px; 
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+#menù{
+    background-color: rgb(237, 237, 237);
+    height: 100%;
+    width: 0;
+    overflow-x: hidden;
+    z-index:1;
+    position: fixed;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.212);
+    transition: 0.5s;
+}
+
+#cardfilter{
+    height: 4em;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2em;
+    padding-right: 2em;
+    gap: 3em;
+}
+
+#filter{
+    border: none;
+    border-radius: 30px;
+    width: 8em;
+    height: 2.2em;
+    border: solid 3px #20639B;
+    background-color: #2c4b64;
+    color: #d6e4ef;
+    overflow-x: inherit;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*
+#banco{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    gap: 8px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+#carte{
+    height: 15em;
+    width: 100%;
+    border: solid 2px  black;
+}
+*/
+/*--------------------------HEADER-------------------------------*/
+
+header span {
+    font-family: Sicilian;
+    font-size:4.5rem;
+    -webkit-text-size-adjust: 100%; 
+    -webkit-text-stroke: 0.5px;
+    color:rgba(52, 52, 52, 0.838);
+    margin-bottom: -18px;
+    font-weight: 700;
+}
+
+header {
+    background-color: var(--yellow1);
+}
+
+header span{
+    font-size: 4.215rem;
+}
+
+/*--------------------------TYPOGRAPHY--------------------------------*/
+
+h1 {
+    font-size: 3.815rem;
+}
+
+h2 {
+    font-size: 3.052rem;
+}
+
+h3 {
+    font-size: 2.441rem;
+}
+
+h4 {
+    font-size: 1.953rem;
+}
+
+h5 {
+    font-size: 1.563rem;
+}
+
+h6 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1em;
+}
+
+
+/*--------------------------CLASS--------------------------------*/
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:0px;
+}
+
+.text {
+    display: flex;
+}
+
+.nav {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--yellow1);
+    height: 55px;
+}
+
+.search{
+    background: none;
+    border: none;;
+    flex-grow: 1;
+    outline: none;
+    width: 100%;
+    font-size: 15px;
+}
+
+.container2 {
+    display: flex;
+    height: 50.5em;
+}
+
+.cardsearch{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(224, 224, 224);
+    border: solid 1px #8f8f8f;
+    height: 30px;
+    border-radius: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 16px;
+    padding-right: 10px;
+}
+
+.cardM1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid black 2px;
+    height: 30 em;
+    padding: 1em;
+    padding-top: 10 em;
+}
+
+.carduser{
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding:10px;
+    gap: 10%;
+    padding-right: 2%;
+}
+.cardlist{
+    width: 25%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding:10px;
+    gap: 40%;
+    padding-left: 1%;
+}
+
+.cardsearch button {
+    background: none;
+    border: none;
+}
+
+.bodyleft{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 15%;
+}
+
+.bodycenter{
+    height: 100%;
+    width: 70%;
+}
+.bodyright{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 15%;
+}
+
+
+/*---------------------------BODY---------------------------------*/
+
+li{
+    overflow: hidden;
+    list-style: none;
+}
+ul{
+    display: flex;
+ /*   align-items: stretch;*/
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+/*
+@media screen and (max-width: 992px) {
+    body {
+      background-color: red;
+    }
+*/
