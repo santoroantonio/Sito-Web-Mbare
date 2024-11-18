@@ -1,8 +1,5 @@
 let http = require('http');
-
 let fs = require('fs');
-
-
 
 http.createServer(function (request, response) {
   console.log(request.url);
@@ -20,6 +17,7 @@ http.createServer(function (request, response) {
 		sendFileContent(response, request.url.toString().substring(1), "image/svg+xml");
 	}else
 	if (/^\/[a-zA-Z0-9\/]*.ttf$/.test(request.url.toString())) {
+		console.log("Serving font TTF:", request.url);
 		sendFileContent(response, request.url.toString().substring(1), "font/ttf");
 	}
 	else if (/^\/[a-zA-Z0-9\/]*.js$/.test(request.url.toString())){
