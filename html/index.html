@@ -1,155 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mbare - Clothing for Gay people</title>
-    <link rel="stylesheet" type="text/css" href="../css/stile.css" />
-  </head>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Mbare - Clothing for Gay people</title>
+		<link rel="stylesheet" type="text/css" href="../css/stile.css" />
+		<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css" />
+	</head>
 
-  <body>
-    <div id="menù">
-      <div id="cardM1">
-        <h4 style="overflow: hidden">Menù</h4>
-        <button class="iconclick" onclick="CloseM()">
-          <img
-            src="../img/X.png"
-            alt="elenco"
-            height="40px"
-            style="margin-top: 3px"
-          />
-        </button>
-      </div>
-    </div>
-    <header>
-      <div class="container">
-        <span class="text">Mbare</span>
-      </div>
-    </header>
-    <ul class="nav" id="sticky">
-      <li class="cardlist" style="justify-content: space-between; gap: 40%">
-        <button class="iconclick" onclick="OpenM()">
-          <img
-            src="../img/elenco.png"
-            alt="elenco"
-            height="30px"
-            style="margin-bottom: -5px"
-          />
-        </button>
-        <button id="filters" onclick="">
-          <img
-            src="../img/filtri.svg"
-            alt="filtri"
-            height="33px"
-          />
-        </button>
-      </li>
-      <li class="cardsearch">
-        <input class="search" type="text" placeholder="Cosa stai cercando?" />
-        <button id="iconsearch" type="submit">
-          <img src="../img/search.svg" alt="cerca" height="24px" />
-        </button>
-      </li>
-      <li class="cardlist" style="justify-content: end; gap: 10%">
-        <a
-          ><img id="iconcarrello" src="../img/carrello.png" alt="carrello"
-        /></a>
-        <a><img id="iconuser" src="../img/utente1.png" alt="utente" /></a>
-      </li>
-    </ul>
-    
-    <div class="container2">
-      <div class="bodyleft">
+	<body>
+		<div id="menù">
+			<div id="cardM1">
+				<h4 style="overflow: hidden">Menù</h4>
+				<button class="iconclick" onclick="CloseM()">
+					<img src="../img/X.png" alt="elenco" height="40px" style="margin-top: 3px" />
+				</button>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<span class="text">Mbare</span>
+			</div>
+		</header>
+		<ul class="nav" id="sticky">
+			<li class="cardlist" style="justify-content: space-between; gap: 40%">
+				<button class="iconclick" onclick="OpenM()">
+					<img src="../img/elenco.png" alt="elenco" height="30px" style="margin-bottom: -5px" />
+				</button>
+				<button id="filters" onclick="">
+					<img src="../img/filtri.svg" alt="filtri" height="33px" />
+				</button>
+			</li>
+			<li class="cardsearch">
+				<input class="search" type="text" placeholder="Cosa stai cercando?" />
+				<button id="iconsearch" type="submit">
+					<img src="../img/search.svg" alt="cerca" height="24px" />
+				</button>
+			</li>
+			<li class="cardlist" style="justify-content: end; gap: 10%">
+				<a><img id="iconcarrello" src="../img/carrello.png" alt="carrello" /></a>
+				<a><img id="iconuser" src="../img/utente1.png" alt="utente" /></a>
+			</li>
+		</ul>
 
-      </div>
-      <div class="bodycenter">
-        <div class="generes">
-          <div class="titleGen">
-            <h5> NOVITÀ </h5>
-          </div>
-          <div class="products">
+		<div class="container2">
+			<div class="bodyleft"></div>
+			<div class="bodycenter">
+				<div class="generes">
+					<div class="titleGen">
+						<h5>NOVITÀ</h5>
+					</div>
+					<div class="products">
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+					</div>
+				</div>
 
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
+				<div class="generes">
+					<div class="titleGen">
+						<h5>SBORRO</h5>
+					</div>
+					<div class="products">
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+						<div class="group">
+							<img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine" />
+							<div class="product">Descrizione</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="bodyright"></div>
+		</div>
 
-          </div>
-          
-        </div>
+		<footer style="background-color: bisque">
+			<h3>footer</h3>
+		</footer>
+	</body>
 
-        <div class="generes">
-          <div class="titleGen">
-            <h5> SBORRO </h5>
-          </div>
-          <div class="products">
-
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-            <div class="group">
-              <img class="foto" src="../img/prodotto.png" height="240rem" alt="immagine"/> 
-              <div class="product"> Descrizione </div>
-            </div>
-
-          </div>
-          
-        </div>
-      
-      </div>
-      <div class="bodyright">
-
-      </div>
-    </div>
-
-    <footer style="background-color: bisque">
-      <h3>footer</h3>
-    </footer>
-  </body>
-
-  <script>
-    function OpenM() {
-      document.getElementById("menù").style.width = "30%";
-    }
-    function CloseM() {
-      document.getElementById("menù").style.width = "0%";
-    }
-  </script>
+	<script>
+		function OpenM() {
+			document.getElementById('menù').style.width = '30%';
+		}
+		function CloseM() {
+			document.getElementById('menù').style.width = '0%';
+		}
+	</script>
 </html>
