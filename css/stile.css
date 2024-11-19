@@ -89,7 +89,7 @@ body {
 
 header span {
 	font-family: Sicilian;
-	font-size: 4.215rem;
+	font-size: 5.015rem;
 	-webkit-text-size-adjust: 100%;
 	-webkit-text-stroke: 0.5px;
 	color: rgba(52, 52, 52, 0.838);
@@ -137,6 +137,8 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+    height: 11em;
+    padding-bottom: 10px;
 }
 
 .text {
@@ -195,10 +197,9 @@ p {
 }
 
 .bodyleft {
-	background-color: rgb(129, 129, 129);
-	height: 100%;
+	background-color: rgb(247, 247, 247);
+	height: 64em;
 	width: 18%;
-	border: solid black 2px;
 }
 
 .bodycenter {
@@ -207,10 +208,9 @@ p {
 }
 
 .bodyright {
-	background-color: rgb(185, 185, 185);
-	height: 100%;
+	background-color: rgb(247, 247, 247);
+	height: 64em;
 	width: 18%;
-	border: solid black 2px;
 }
 
 .iconclick {
