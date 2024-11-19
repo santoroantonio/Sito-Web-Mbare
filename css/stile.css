@@ -137,7 +137,6 @@ p {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding: 0px;
 }
 
 .text {
@@ -234,14 +233,15 @@ p {
 	flex-direction: column;
 	border: solid 3px #8f8f8f;
 	border-radius: 13px;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.212);
+
 }
 
 .products {
 	display: flex;
 	gap: 20px;
 	overflow-x: scroll;
-	margin-left: 15px;
-	padding-bottom: 15px;
+	padding: 15px;
 }
 
 .titleGen {
@@ -250,7 +250,7 @@ p {
 .product {
 	height: 4.5rem;
 	padding: 8px;
-	background-color: white;
+	background-color: rgb(249, 249, 249);
 	border-bottom-left-radius: 11px;
 	border-bottom-right-radius: 11px;
 }
