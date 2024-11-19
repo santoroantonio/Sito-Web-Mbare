@@ -4,7 +4,7 @@
 }
 @font-face {
 	font-family: Sicilian;
-	src: url('../font/sicilian font.ttf') format('truetype');
+	src: url('../font/Sicilian.ttf') format('truetype');
 }
 
 :root {
@@ -195,11 +195,11 @@ p {
 	border: none;
 }
 
-.bodyleft{
-    background-color: rgb(129, 129, 129);
-    height: 100%;
-    width: 18%;
-    border: solid black 2px;
+.bodyleft {
+	background-color: rgb(129, 129, 129);
+	height: 100%;
+	width: 18%;
+	border: solid black 2px;
 }
 
 .bodycenter {
@@ -207,12 +207,11 @@ p {
 	width: 64%;
 }
 
-
-.bodyright{
-    background-color: rgb(185, 185, 185);
-    height: 100%;
-    width: 18%;
-    border: solid black 2px;
+.bodyright {
+	background-color: rgb(185, 185, 185);
+	height: 100%;
+	width: 18%;
+	border: solid black 2px;
 }
 
 .iconclick {
